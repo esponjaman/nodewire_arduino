@@ -1,13 +1,103 @@
 {
-  "name": "NodeWire library",
-  "keywords": "Sensors",
-  "description": "NodeWire Library for connected devices",
-  "repository":
-  {
-    "type": "git",
-    "url": "https://github.com/ahmadmicro/nodewire_arduino.git"
-  },
-  "frameworks": "arduino",
-  "platforms": "espressif8266",
-  "version": "0.2"
+	"maintainer": "Ahmad Sadiq <sadiq.a.ahmad@gmail.com>",
+	"version": "0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmadmicro/nodewire_arduino.git"
+	},
+	"platforms": [{
+			"name": "atmelavr",
+			"title": "Atmel AVR"
+		},
+		{
+			"name": "atmelsam",
+			"title": "Atmel SAM"
+		},
+		{
+			"name": "espressif32",
+			"title": "Espressif 32"
+		},
+		{
+			"name": "espressif8266",
+			"title": "Espressif 8266"
+		},
+		{
+			"name": "freescalekinetis",
+			"title": "Freescale Kinetis"
+		},
+		{
+			"name": "intel_arc32",
+			"title": "Intel ARC32"
+		},
+		{
+			"name": "lattice_ice40",
+			"title": "Lattice iCE40"
+		},
+		{
+			"name": "linux_arm",
+			"title": "Linux ARM"
+		},
+		{
+			"name": "linux_i686",
+			"title": "Linux i686"
+		},
+		{
+			"name": "linux_x86_64",
+			"title": "Linux x86_64"
+		},
+		{
+			"name": "microchippic32",
+			"title": "Microchip PIC32"
+		},
+		{
+			"name": "native",
+			"title": "Native"
+		},
+		{
+			"name": "nordicnrf51",
+			"title": "Nordic nRF51"
+		},
+		{
+			"name": "nxplpc",
+			"title": "NXP LPC"
+		},
+		{
+			"name": "siliconlabsefm32",
+			"title": "Silicon Labs EFM32"
+		},
+		{
+			"name": "ststm32",
+			"title": "ST STM32"
+		},
+		{
+			"name": "teensy",
+			"title": "Teensy"
+		},
+		{
+			"name": "timsp430",
+			"title": "TI MSP430"
+		},
+		{
+			"name": "titiva",
+			"title": "TI TIVA"
+		},
+		{
+			"name": "windows_x86",
+			"title": "Windows x86"
+		}
+	],
+	"description": "NodeWire Library for connected devices",
+	"frameworks": [{
+		"name": "arduino",
+		"title": "Arduino"
+	}],
+	"paragraph": "NodeWire Library",
+	"authors": [{
+		"name": "Ahmad Sadiq"
+	}],
+	"keywords": [
+		"sensors"
+	],
+	"homepage": "http://www.nodewire.org/",
+	"name": "NodeWire library"
 }
