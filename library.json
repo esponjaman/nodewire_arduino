@@ -1,0 +1,13 @@
+{
+  "name": "NodeWire library",
+  "keywords": "Sensors",
+  "description": "NodeWire Library for connected devices",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ahmadmicro/nodewire_arduino.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif8266",
+  "version": "0.2"
+}
